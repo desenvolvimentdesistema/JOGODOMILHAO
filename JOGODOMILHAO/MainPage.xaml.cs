@@ -41,19 +41,28 @@ public partial class MainPage : ContentPage
 	int pulou = 0;
 	async void OnAjudaPulaClicked(object s, EventArgs E)
 	{
-		if (await DisplayAlert("PULAR QUESTÃO!", "Deseja mesmo pular a questão, depois este recurso não estará mais disponível!!", "PULAR QUESTÃO", "CANCELAR"))
+		if (await DisplayAlert("PULAR QUESTÃO!", "Deseja mesmo pular a questão, depois não será possível usar esse recurso", "PULAR QUESTÃO", "CANCELAR"))
 		{
 			if (pulou == 2)
-				(s as Button). IsVisible = false;
-			else
 			{
-				gerenciador.LoadFromXaml ProximaQuestao();
-				pulou ++;
+				(s as Button).IsVisible = false;
 			}
-			Button AjudaPula.Text = "pula" + (3 - pula) + "x";
-		}
 
-	}
+			else if (pulou == 0)
+			{
+				gerenciador.ProximaQuestao();
+				pulou++;
+				(s as Button).Text = "Pular " + 2.ToString() + "x";
+			}
+				else if (pulou == 1)
+			{
+				gerenciador.ProximaQuestao();
+				pulou++;
+				(s as Button).Text = "Pular " + 1.ToString() + "x";
+
+			}
+
+		}
 	async void OnAjudaRetirarClicked(object s, EventArgs e)
 	{
 		if (await DisplayAlert("CARTAS!!","Deseja mesmo usar o recurso das cartas, depois este recurso não estará mais disponível!!", "USAR AS CARTAS", "CANCELAR"))
@@ -75,5 +84,6 @@ public partial class MainPage : ContentPage
 			(s as ImageButton).IsVisible = false;
 		}
 
+	}
 	}
 }

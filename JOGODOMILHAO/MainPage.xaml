@@ -92,7 +92,7 @@
                         Grid.Row="8"
                         Grid.Column="0"
                         Grid.ColumnSpan="3"/>
-                <ImageButton Source="cartas.png"
+               <ImageButton Source="cartas.png"
                              Padding="10,10,10,10"
                              Clicked="OnAjudaRetirarClicked"
                              BackgroundColor="White"
