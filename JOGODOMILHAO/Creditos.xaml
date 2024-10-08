@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="JOGODOMILHAO.Creditos"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#004AAD"
+             Shell.NavBarIsVisible="False"
+             Padding="20,20,20,20">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Image Source="showdomiliao.png"
+               Aspect="AspectFit"
+               Grid.Row="0"/>
+        <Label Text="CRÉDITOS"
+               TextColor="White"
+               Margin="20"
+               FontSize="50"
+               FontFamily="Flowers"
+               HorizontalOptions="Center"
+               Grid.Row="1"/>
+        <Label Text="Aplicativo desenvolvido na curso técnico de Desenvolvimento de Sistemas com o objetivo da compreensão da linguagem e programação C#, além de aprender como utilizar o XAML, com conceitos de Programação Orientada a Objeto, .NET MAUI, UI(USER INFACE), ALGORITMOS, E UX (USER EXPERINCE) Trabalho desenvolvido por EMANUELE BRUM ROSSI, com o auxílio do Professor THIAGO MACEDO"
+               CharacterSpacing="1"
+               LineHeight="1.5"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="15"
+               Grid.Row="2"
+               Grid.RowSpan="2"/>
+
+        <Button Text="VOLTAR"
+                Clicked="ButtonVoltarButtonClicked"
+                HeightRequest="50"
+                CornerRadius="25"
+                BackgroundColor="#0a4afa"
+                TextColor="White"
+                Margin="0,0,0,10"
+                FontSize="18"
+                Grid.Row="3"/>
+
+    </Grid>
+</ContentPage>

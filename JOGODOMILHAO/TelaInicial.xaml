@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="JOGODOMILHAO.TelaInicial"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#004AAD"
+             Shell.NavBarIsVisible="False"
+             Padding="20,20,20,20">
+
+    <Grid  RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+
+        </Grid.RowDefinitions>
+        <Image Source="logo.png"
+               Aspect="AspectFit"
+               Grid.Row="0"
+               Grid.RowSpan="2"/>
+        <Button x:Name="IniciarJogo"
+                Clicked="OnButtonIniciarJogoButtonClicked"
+                Text="JOGAR"
+                BackgroundColor="#0a4afa"
+                FontSize="12"
+                Grid.Row="2"/>
+        <Button x:Name="CreditosJogo"
+                Clicked="OnButtonCreditosJogoButtonClicked"
+                Text="CRÉDITOS"
+                BackgroundColor="#0a4afa"
+                FontSize="12"
+                Grid.Row="3"/>
+
+
+
+    </Grid>
+</ContentPage>
