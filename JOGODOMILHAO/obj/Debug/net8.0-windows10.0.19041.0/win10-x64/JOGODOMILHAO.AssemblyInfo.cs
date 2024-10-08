@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JOGODOMILHAO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+471f6fe43fae692b278abddd3490f3773196bb5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6d899f74460db4d4fbc2d171890dac8dea961cc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("JOGODOMILHAO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JOGODOMILHAO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

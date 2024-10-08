@@ -11,23 +11,23 @@ public partial class MainPage : ContentPage
 
 	}
 
-	void OnButtonResposta01ButtonClicked(object sender, EventArgs args)
+	void OnButtonResposta1ButtonClicked(object sender, EventArgs args)
 	{
 		gerenciador.VerfiicaCorreto(1);
 	}
-	void OnButtonResposta02ButtonClicked(object sender, EventArgs args)
+	void OnButtonResposta2ButtonClicked(object sender, EventArgs args)
 	{
 		gerenciador.VerfiicaCorreto(2);
 	}
-	void OnButtonResposta03ButtonClicked(object sender, EventArgs args)
+	void OnButtonResposta3ButtonClicked(object sender, EventArgs args)
 	{
 		gerenciador.VerfiicaCorreto(3);
 	}
-	void OnButtonResposta04ButtonClicked(object sender, EventArgs args)
+	void OnButtonResposta4ButtonClicked(object sender, EventArgs args)
 	{
 		gerenciador.VerfiicaCorreto(4);
 	}
-	void OnButtonResposta05ButtonClicked(object sender, EventArgs args)
+	void OnButtonResposta5ButtonClicked(object sender, EventArgs args)
 	{
 		gerenciador.VerfiicaCorreto(5);
 	}
@@ -63,9 +63,9 @@ public partial class MainPage : ContentPage
 			}
 
 		}
-	async void OnAjudaRetirarClicked(object s, EventArgs e)
+	async void OnRetirarClicked(object s, EventArgs e)
 	{
-		if (await DisplayAlert("CARTAS!!","Deseja mesmo usar o recurso das cartas, depois este recurso não estará mais disponível!!", "USAR AS CARTAS", "CANCELAR"))
+		if (await DisplayAlert("CARTAS 🃏!", "Deseja mesmo usar o recurso das cartas, depois não será possível usar esse recurso", "USAR AS CARTAS", "CANCELAR"))
 		{
 			var ajuda = new RetiraErradas();
 			ajuda.ConfiguraDesenho(Button1, Button2, Button3, Button4, Button5);

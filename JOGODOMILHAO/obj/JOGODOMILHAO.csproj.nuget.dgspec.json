@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\JOGODOMILHAO-1\\JOGODOMILHAO\\JOGODOMILHAO.csproj": {}
+    "C:\\Users\\acer\\JOGODOMILHAO-2\\JOGODOMILHAO\\JOGODOMILHAO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\JOGODOMILHAO-1\\JOGODOMILHAO\\JOGODOMILHAO.csproj": {
+    "C:\\Users\\acer\\JOGODOMILHAO-2\\JOGODOMILHAO\\JOGODOMILHAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\JOGODOMILHAO-1\\JOGODOMILHAO\\JOGODOMILHAO.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\JOGODOMILHAO-2\\JOGODOMILHAO\\JOGODOMILHAO.csproj",
         "projectName": "JOGODOMILHAO",
-        "projectPath": "C:\\Users\\acer\\JOGODOMILHAO-1\\JOGODOMILHAO\\JOGODOMILHAO.csproj",
+        "projectPath": "C:\\Users\\acer\\JOGODOMILHAO-2\\JOGODOMILHAO\\JOGODOMILHAO.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\JOGODOMILHAO-1\\JOGODOMILHAO\\obj\\",
+        "outputPath": "C:\\Users\\acer\\JOGODOMILHAO-2\\JOGODOMILHAO\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
