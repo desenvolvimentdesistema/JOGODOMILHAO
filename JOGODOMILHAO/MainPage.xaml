@@ -94,7 +94,7 @@
                         Grid.ColumnSpan="3"/>
                <ImageButton Source="cartas.png"
                              Padding="10,10,10,10"
-                             Clicked="OnRetirarClicked"
+                             Clicked="OnRetiraErradaClicked"
                              BackgroundColor="White"
                              Grid.Row="9"
                              Grid.Column="0"/>

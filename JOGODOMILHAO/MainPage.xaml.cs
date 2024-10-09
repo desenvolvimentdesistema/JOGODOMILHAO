@@ -63,11 +63,11 @@ public partial class MainPage : ContentPage
 			}
 
 		}
-	async void OnRetirarClicked(object s, EventArgs e)
+	async void OnRetiraErradaClicked(object s, EventArgs e)
 	{
 		if (await DisplayAlert("CARTAS 🃏!", "Deseja mesmo usar o recurso das cartas, depois não será possível usar esse recurso", "USAR AS CARTAS", "CANCELAR"))
 		{
-			var ajuda = new RetiraErradas();
+			var ajuda = new RetiraErrada();
 			ajuda.ConfiguraDesenho(Button1, Button2, Button3, Button4, Button5);
 			ajuda.RealizaAjuda(gerenciador.GetQuestaoAtual());
 			(s as ImageButton).IsVisible = false;

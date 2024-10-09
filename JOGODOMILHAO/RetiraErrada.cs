@@ -1,6 +1,6 @@
 using JOGODOMILHAO;
 
-public class RetiraErradas : IAjuda
+public class RetiraErrada : IAjuda
 {
     public override  void RealizaAjuda(Questao questao)
     {
